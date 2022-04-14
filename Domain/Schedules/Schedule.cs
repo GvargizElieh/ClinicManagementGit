@@ -33,5 +33,11 @@ namespace Domain.Schedules
             if(await  domainServices.IsTimeDuplicated(startTime))
                 throw new InvalidDataException($"{nameof(StartTime)} is duplicated.");
         }
+
+        public void AssignPerson(Person person)
+        {
+            PersonId = person.Id;
+            Person = person;
+        }
     }
 }

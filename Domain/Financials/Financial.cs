@@ -44,5 +44,11 @@ namespace Domain.Financials
         {
             Status = PaymentStatus.Canceled;
         }
+
+        public void AssignPerson(Person person)
+        {
+            PersonId = person.Id;
+            Person = person;
+        }
     }
 }

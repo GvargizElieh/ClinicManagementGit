@@ -36,5 +36,11 @@ namespace Domain.Reports
         {
             Content = content;
         }
+
+        public void AssignPerson(Person person)
+        {
+            PersonId = person.Id;
+            Person = person;
+        }
     }
 }

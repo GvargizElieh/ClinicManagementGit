@@ -43,5 +43,23 @@ namespace Domain.People
             if (await domainService.IsNationalIdDuplicated(nationalId))
                 throw new InvalidDataException($"NationalId {nationalId} is duplicated!");
         }
+
+        public void AssingnFinancial(Financial financial)
+        {
+            financial.AssignPerson(this);
+            Financials.Add(financial);
+        }
+
+        public void AssignReport(Report report)
+        {
+            report.AssignPerson(this);
+            Reports.Add(report);
+        }
+
+        public void AssignSchedule(Schedule schedule)
+        {
+            schedule.AssignPerson(this);
+            Schedules.Add(schedule);
+        }
     }
 }
