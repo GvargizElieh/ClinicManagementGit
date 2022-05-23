@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config", "Config\Config.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndPoint", "EndPoint", "{FE9F28DD-DBD1-44C8-98A6-1E5890593340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementApi", "ClinicManagementApi\ClinicManagementApi.csproj", "{C4A56684-7CA4-4617-9D81-8793FD5CE3EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicManagementApi", "ClinicManagementApi\ClinicManagementApi.csproj", "{C4A56684-7CA4-4617-9D81-8793FD5CE3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagement", "ClinicManagement\ClinicManagement.csproj", "{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{C4A56684-7CA4-4617-9D81-8793FD5CE3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A56684-7CA4-4617-9D81-8793FD5CE3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A56684-7CA4-4617-9D81-8793FD5CE3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{9795EE8A-29C0-4848-AFFF-8FF6B45DA393} = {01B43168-6832-4AE2-B046-7F8143C5FC23}
 		{FE9F28DD-DBD1-44C8-98A6-1E5890593340} = {01B43168-6832-4AE2-B046-7F8143C5FC23}
 		{C4A56684-7CA4-4617-9D81-8793FD5CE3EF} = {FE9F28DD-DBD1-44C8-98A6-1E5890593340}
+		{DE360C6C-00C2-4FE1-A8FC-6A5326A441E2} = {FE9F28DD-DBD1-44C8-98A6-1E5890593340}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FFC258D-1C86-4C95-B97C-BABB40085F63}
